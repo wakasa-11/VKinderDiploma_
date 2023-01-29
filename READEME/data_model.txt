@@ -1,0 +1,10 @@
+---------------------------    ------------------------    -------------------------------    --------------------------------
+|           User          |    |       Candidate      |    |            Photo            |    |       user_to_candidate      |
+---------------------------    ------------------------    -------------------------------    --------------------------------
+| id: Integer             |    | id: Integer          |    | id: String                  |    | user_id: User.id             |
+| token: String           |    | first_name: String   |    | photo_id: Integer           |    | candidate_id: Candidate.id   |
+| candidates: [Candidate] |    | last_name: String    |    | candidate_id: Candidate.id  |    |                              | 
+|                         |    | screen_name: String  |    | likes_count: Integer        |    |                              | 
+|                         |    | photos: [Photo]      |    | comments_count: Integer     |    |                              | 
+|                         |    | users: [User]        |    |                             |    |                              |
+---------------------------    ------------------------    -------------------------------    --------------------------------

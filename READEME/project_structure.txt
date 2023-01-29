@@ -1,0 +1,22 @@
+handler
+| helper (folder for general utilities)
+| | message_sender.py
+|
+| question (this is a utility module for search_handler.py)
+| | base_question.py
+| | status_question.py
+| | ... other questions ....
+|
+| base_handler.py
+| search_handler.py
+| ... other handlers ...
+
+model
+| base.py
+| candidate.py
+| photo.py
+| user.py
+| user_to_candidate.py
+
+main.py
+vk_bot.py

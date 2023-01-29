@@ -1,0 +1,2 @@
+User [many]-------[many] Candidate
+Candidate [one]-------[many] Photos
